@@ -26,7 +26,7 @@ const NavItem = styled.li`
 export default function Header() {
     const navigate = useNavigate();
 
-    const [Login, setLogin] = useState(false);
+    const setLogin = useState(false);
 
     const handleLoginClick = () => {
         setLogin(true);
