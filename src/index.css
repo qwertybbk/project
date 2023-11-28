@@ -11,6 +11,22 @@ body {
   width: 100%;
 }
 
+.header-container {
+  background-color: rgba(3, 37, 65, 1);
+}
+
+.header-wrap img {
+  max-width: 1400px;
+  margin-top: 5px;
+}
+
+.login-wrap button {
+  padding: 4px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: white;
+}
+
 .app-container {
   display: flex;
   flex-wrap: wrap;
